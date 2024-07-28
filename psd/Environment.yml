@@ -1,0 +1,17 @@
+name: PSD_Environment
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+    - dependency-injector
+    - fastapi
+    - uvicorn
+    - requests
+    - python-interface
+    - pydantic
+    - loguru
+    - numpy
+    - pandas
+    - transformers
+    - pysentimiento

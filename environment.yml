@@ -1,0 +1,21 @@
+name: MPSC_Environment
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.9
+  - pip:
+    - numpy
+    - pandas
+    - scikit-learn
+    - matplotlib
+    - yake
+    - streamlit==1.5.0
+    - python-dotenv
+    - tensorflow
+    - summa
+    - python-dotenv
+    - nltk
+    - tensorflow==2.7
+    - tensorflow_hub
+    - keras-tuner
